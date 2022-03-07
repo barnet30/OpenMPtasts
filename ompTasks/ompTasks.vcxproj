@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +140,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ompTasks.cpp" />
+    <ClCompile Include="task1.cpp" />
+    <ClCompile Include="task2.cpp" />
+    <ClCompile Include="task3.cpp" />
+    <ClCompile Include="task4.cpp" />
+    <ClCompile Include="task5.cpp" />
+    <ClCompile Include="task6.cpp" />
+    <ClCompile Include="task7.cpp" />
+    <ClCompile Include="task8.cpp" />
+    <ClCompile Include="task9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
