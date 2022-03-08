@@ -169,7 +169,7 @@ void check_options(int n)
 	return;
 }
 
-int main()
+int main9()
 {
     srand(time(0));
     omp_set_num_threads(8);
